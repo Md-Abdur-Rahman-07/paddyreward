@@ -16,7 +16,8 @@
             flex-direction: row;
             justify-content: space-between;
             align-items: center;
-            padding: 10px 10px 0 10px;
+            padding-top: 10px;
+            /* padding: 10px 10px 0 10px; */
         }
         .sec-11{
             display: flex;
@@ -30,8 +31,7 @@
             font-size: 25px;
         }
         .sec-1 img{
-            width: 45px;
-            height: auto;
+            width: 100%;
         }
         .sec-2 img{
             width: 50px;
@@ -87,17 +87,7 @@
 </head>
 <body>
     <section class="sec-1">
-        <div class="sec-11">
-            <i class="fa-solid fa-xmark"></i>
-        <img src="img/pp-fill.png" alt="">
-        <div>
-            <p class="p-1">Paddy Power Sports Betting</p>
-            <p class="p-2">Download Our App!</p>
-        </div>
-        </div>
-        <div class="sec-12">
-            <a href="" class="get">Get</a>
-        </div>
+       <img src="img/top.png" alt="">
     </section>
     <section class="sec-2">
         <img src="img/pp.png" alt="">
@@ -120,7 +110,7 @@
     justify-content: space-between;
     font-weight: bold;
     padding-bottom: 0;
-    border-bottom: 2px solid #ddd;
+    /* border-bottom: 2px solid #ddd; */
 }
 .tab-div{
     display: flex;
@@ -145,7 +135,9 @@
 }
 
 .toggle-container {
-    padding: 20px;
+    padding: 5px 0;
+
+    background: #FFFFFF;
     border-radius: 5px;
     box-shadow: 0 0 6px 1px rgb(128, 128, 128,0.1);
     display: flex;
@@ -154,11 +146,7 @@
     align-items: center;
     margin: 20px 0;
 }
-.toggle-container img{
-    width: 40px;
-    height: auto;
-    margin: 0;
-}
+
 
 .toggle {
     position: relative;
@@ -193,9 +181,10 @@ input:checked + .slider {
 }
 .bet-card p{
     font-size: 16px;
+    margin: 7px 0;
 }
 .bet-info {
-    border-bottom: 1px solid #ddd;
+    /* border-bottom: 1px solid #ddd; */
     padding-bottom: 10px;
 }
 
@@ -203,6 +192,10 @@ input:checked + .slider {
     display: flex;
     justify-content: space-between;
     font-size: 16px;
+}
+.team strong{
+    font-size: 17px;
+    margin-bottom: 3px;
 }
 
 .odds {
@@ -228,7 +221,7 @@ input:checked + .slider {
 .bet-v{
     display: flex;
     flex-direction: row;
-    width: 60%;
+    width: 65%;
     justify-content: space-between;
 }
 .btn-grp{
@@ -303,20 +296,12 @@ footer img{
     <section class="sec-3">
         <div class="betting-container">
             <div class="tabs">
-                <div class="tab-div">
-                    <span class="tab active">Open</span>
-                <span class="tab">Settled</span>
-                </div>
-                <div class="help-div">
-                    <img src="img/ask.png" alt="">
-                    <span class="help"> Need help?</span>
-                </div>
+             <img src="img/toggle.png" alt="">
                
             </div>
         
             <div class="toggle-container">
-                <p>Confirm Before Cash Out</p>
-             <img src="img/tool.png" alt="">
+               <img src="img/toggle-btn.png" alt="">
             </div>
         
             <div class="bet-card">
